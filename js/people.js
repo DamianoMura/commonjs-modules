@@ -1,7 +1,16 @@
-const people = require('./names.js');
+const fullName = require('./names.js');
 
-console.log(people('Damiano','Mura'))
+// console.log(names('Damiano','Mura'))
 
 const hobbies = require('./hobbies.js');
 
-console.log(hobbies('Guitar','videogames', 'programming' ))
+
+
+const people = () =>{
+  return{
+    fullName: fullName('Damiano','Mura'),
+    hobbies: hobbies('guitar','videogames','cats')
+  }
+}
+
+console.log(people())

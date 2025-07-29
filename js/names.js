@@ -1,9 +1,9 @@
-const names = (firstName,lastName) => {
+const fullName = (firstName,lastName) => {
   return {
     firstName,
     lastName
   }
 }
 
-module.exports = names;
+module.exports = fullName;
 
