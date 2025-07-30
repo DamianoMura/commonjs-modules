@@ -1,7 +1,5 @@
 const fullName = require('./names.js');
 
-// console.log(names('Damiano','Mura'))
-
 const hobbies = require('./hobbies.js');
 
 
